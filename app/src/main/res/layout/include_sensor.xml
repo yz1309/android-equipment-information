@@ -1,0 +1,322 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/battery"
+    style="@style/index_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/indextitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/sensor" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/line" />
+
+
+
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/tuoluoyi" />
+
+        <TextView
+            android:id="@+id/tvTuoLuoYi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/zhichi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/guangxian" />
+
+        <TextView
+            android:id="@+id/tvGuangXian"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/zhichi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/jiasu" />
+
+        <TextView
+            android:id="@+id/tvJiaSu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/zhichi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/cichang" />
+
+        <TextView
+            android:id="@+id/tvCiChang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/zhichi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/yali" />
+
+        <TextView
+            android:id="@+id/tvYaLi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/zhichi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/juli" />
+
+        <TextView
+            android:id="@+id/tvJuLi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/zhichi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/wendu" />
+
+        <TextView
+            android:id="@+id/tvWenDu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/zhichi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/xianxing" />
+
+        <TextView
+            android:id="@+id/tvXianXing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/zhichi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/xuanzhuan" />
+
+        <TextView
+            android:id="@+id/tvXuanZhuan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/zhichi" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/zhongli" />
+
+        <TextView
+            android:id="@+id/tvZhongLi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="@string/zhichi" />
+    </RelativeLayout>
+
+
+</LinearLayout>

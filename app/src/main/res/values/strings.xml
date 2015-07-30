@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">yoos</string>
+    <string name="equip">设备</string>
+    <string name="pinpai">品牌</string>
+    <string name="Model">型号</string>
+    <string name="osversion">系统版本</string>
+    <string name="gujianversion">固件版本</string>
+    <string name="coreversion">内核版本</string>
+    <string name="imei">IMEI</string>
+    <string name="mac">Mac</string>
+    <string name="cpu">CPU</string>
+    <string name="cputype">型号</string>
+    <string name="cpuyingjian">硬件</string>
+    <string name="cpunum">核心数</string>
+    <string name="cpuzhupin">主频</string>
+    <string name="show">显示</string>
+    <string name="showcamerahead">前置摄像头</string>
+    <string name="showcameraback">后置摄像头</string>
+    <string name="fenbianlv">分辨率</string>
+    <string name="screenxiangsumidu">像素密度</string>
+    <string name="storage">存储(可用/总量)</string>
+    <string name="storageRAM">运行内存</string>
+    <string name="storageROM">机身存储</string>
+    <string name="storagesd">内置存储卡</string>
+    <string name="battery">电池</string>
+    <string name="batterynum">容量</string>
+    <string name="batterytemp">温度</string>
+    <string name="batterytype">类型</string>
+    <string name="tuoluoyi">陀螺仪</string>
+    <string name="guangxian">光线传感器</string>
+    <string name="jiasu">加速传感器</string>
+    <string name="cichang">磁场传感器</string>
+    <string name="yali">压力传感器</string>
+    <string name="juli">距离传感器</string>
+    <string name="wendu">温度传感器</string>
+    <string name="zhongli">重力传感器</string>
+    <string name="xianxing">线形加速传感器</string>
+    <string name="xuanzhuan">旋转矢量传感器</string>
+    <string name="zhichi">支持</string>
+    <string name="sensor">传感器</string>
+
+
+</resources>

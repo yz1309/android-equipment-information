@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cpu"
+    style="@style/index_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/indextitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/cpu" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/cputype" />
+        <!--CPU型号-->
+        <TextView
+            android:id="@+id/tvCPUModel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/cpuyingjian" />
+        <!--CPU硬件-->
+        <TextView
+            android:id="@+id/tvCPUHardWare"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/cpunum" />
+        <!--CPU核心数-->
+        <TextView
+            android:id="@+id/tvCPUNum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/cpuzhupin" />
+        <!--CPU主频-->
+        <TextView
+            android:id="@+id/tvCPUZhuPin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+</LinearLayout>

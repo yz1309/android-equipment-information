@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/show"
+    style="@style/index_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/indextitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/show" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/showcamerahead" />
+        <!--前置摄像头-->
+        <TextView
+            android:id="@+id/tvCameraHead"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/showcameraback" />
+        <!--后置摄像头-->
+        <TextView
+            android:id="@+id/tvCameraBack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+
+
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/fenbianlv" />
+        <!--分辨率-->
+        <TextView
+            android:id="@+id/tvScreenFenBianLv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/screenxiangsumidu" />
+        <!--像素密度-->
+        <TextView
+            android:id="@+id/tvScreenDXMiDu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+</LinearLayout>

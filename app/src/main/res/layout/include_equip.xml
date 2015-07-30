@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/equip"
+    style="@style/index_item"
+    android:paddingTop="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            style="@style/indextitle"
+            android:text="@string/equip" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/pinpai" />
+        <!--设备名称-->
+        <TextView
+            android:id="@+id/tvEquipName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/Model" />
+        <!--手机型号-->
+        <TextView
+            android:id="@+id/tvPhoneModel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/osversion" />
+        <!--系统版本号-->
+        <TextView
+            android:id="@+id/tvOSVersion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/gujianversion" />
+        <!--固件版本-->
+        <TextView
+            android:id="@+id/tvGuJianVersion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/coreversion" />
+        <!--内核版本-->
+        <TextView
+            android:id="@+id/tvCoreVersion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/imei" />
+        <!--IMEi-->
+        <TextView
+            android:id="@+id/tvIMEI"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        style="@style/index_item_children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/mac" />
+        <!--Mac地址-->
+        <TextView
+            android:id="@+id/tvMac"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="85dp"
+            android:gravity="right"
+            android:paddingRight="10dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/line" />
+</LinearLayout>
